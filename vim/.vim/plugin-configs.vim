@@ -24,6 +24,7 @@ let NERDTreeWinSize=25
 let NERDTreeIgnore = ['\.svn$', '\.git$', '\.o$', '\~$', '\.swp$', '\.pyc$', '\.class$', '\.dSYM$']
 let NERDTreeDirArrows = 1
 let g:NERDTreeMapCWD = 'cc'
+let NERDTreeShowHidden=1
 " let NERDTreeWinPos = "left"
 " let NERDTreeChDirMode=2
 
