@@ -1,0 +1,17 @@
+# Ignore
+
+# Vim
+vim/.vimrc.local
+vim/.vim/bundle
+vim/.vim/sessions
+vim/.vim/spell
+vim/.vim/tags
+vim/.vim/undo
+
+# Newsbeuter
+newsbeuter/.newsbeuter/cache.db
+newsbeuter/.newsbeuter/cache.db.lock
+newsbeuter/.newsbeuter/history.cmdline
+newsbeuter/.newsbeuter/history.search
+newsbeuter/.newsbeuter/queue
+newsbeuter/.newsbeuter/urls
