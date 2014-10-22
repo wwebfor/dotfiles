@@ -7,6 +7,7 @@ vim/.vim/sessions
 vim/.vim/spell
 vim/.vim/tags
 vim/.vim/undo
+vim/.vim/UltiSnips
 
 # Newsbeuter
 newsbeuter/.newsbeuter/cache.db
