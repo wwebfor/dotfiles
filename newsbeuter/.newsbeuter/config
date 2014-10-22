@@ -1,0 +1,31 @@
+max-items 1000
+show-read-feeds no
+auto-reload yes
+#refresh-on-startup yes
+download-retries 4
+notify-program "/usr/bin/notify-send"
+save-path "~/FeedArticles"
+
+# Podcast
+download-path ~/Music/Podcasts
+player mplayer
+
+# Vi-like key bindings
+unbind-key k
+bind-key k up
+unbind-key j
+bind-key j down
+
+unbind-key K
+bind-key K prev-feed
+unbind-key J
+bind-key J next-feed
+
+# Look and feel
+color info white green bold
+color listfocus white blue bold
+
+# Higlight important words
+highlight article "^(Feed|Title|Author|Link|Date):" default default bold
+highlight articlelist "(javascript|php|css|laverna|mongo|backbone|marionette|node|jquery|linux|bootstrap|sql|algorithm|ssh)" white green default
+highlight articlelist "(bitcoin|hack|xss)" green default default
