@@ -189,10 +189,6 @@ au FileType css setlocal omnifunc=csscomplete#CompleteCSS
 au FileType less setlocal omnifunc=csscomplete#CompleteCSS
 au FileType sass setlocal omnifunc=csscomplete#CompleteCSS
 
-" Execute functions
-au FileType javascript call DoJavascriptCommands()
-au FileType php call DoPHPCommands()
-
 augroup END
 
 " -----------------------------
@@ -230,14 +226,4 @@ map <C-l> <C-w>l
 " -----------------------------
 "  Functions
 " -----------------------------
-function DoJavascriptCommands()
-    map  <leader>c :JSHint<cr>
-    vmap <leader>c <esc>:JSHint<cr>i
-    imap <leader>c <esc>:JSHint<cr>i
-endfunction;
 
-function DoPHPCommands()
-    let php_sql_query = 1
-    let php_htmlInStrings = 1
-    let php_baselib = 1
-endfunction;

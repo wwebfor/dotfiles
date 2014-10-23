@@ -96,8 +96,6 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_echo_current_error=1
 let g:syntastic_enable_highlighting = 1
 let g:syntastic_auto_jump=1
-let g:syntastic_mode_map = {'mode': 'passive',
-    \ 'active_filetypes': ['php', 'xml', 'json', 'javascript'] }
 " let g:syntastic_stl_format = '[%E{Err: %fe #%e}%B{, }%W{Warn: %fw #%w}]'
 
 " -------------------------------------
@@ -105,6 +103,12 @@ let g:syntastic_mode_map = {'mode': 'passive',
 " -------------------------------------
 " Enable vertical indentation
 nmap <leader>gi :IndentLinesToggle<cr>
+
+" Enable/Disable syntastic
+map  <leader>st :SyntasticToggleMode<cr>
+
+" Show syntax errors
+map  <leader>se :Errors<cr>
 
 " NerdTree
 map  <leader>t :NERDTreeTabsToggle<cr>

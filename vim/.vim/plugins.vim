@@ -4,7 +4,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 " Let Vundle manage itself (required!)
-Plugin 'gmarik/vundle'
+Plugin 'gmarik/Vundle.vim'
 
 " ------------------------------
 "  Sessions & buffers
@@ -86,7 +86,7 @@ Plugin 'maxbrunsfeld/vim-yankstack'
 "  Syntax
 " ------------------------------
 " Syntax checkers
-Plugin 'walm/jshint.vim'
+" Plugin 'walm/jshint.vim'
 Plugin 'scrooloose/syntastic'
 
 " Function and namespace highlighting
