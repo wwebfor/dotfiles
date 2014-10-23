@@ -43,9 +43,6 @@ Plugin 'bling/vim-airline'
 " Highlights trailing whitespace in red and provides :FixWhitespace to fix it
 Plugin 'bronson/vim-trailing-whitespace'
 
-" Display the indention levels with thin vertical lines
-Plugin 'Yggdroot/indentLine'
-
 " -----------------------------------------
 "  Plugins for autocompletion, snippets,
 "  and other stuff that makes life easier

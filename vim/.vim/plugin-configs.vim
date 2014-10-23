@@ -13,7 +13,7 @@ let b:match_ignorecase = 1
 "  UI. Look and feel
 " -----------------------------------
 " JSON
-" let g:vim_json_syntax_conceal = 0
+let g:vim_json_syntax_conceal = 0
 
 " Gitgutter
 highlight clear SignColumn
@@ -38,13 +38,6 @@ let g:tagbar_sort = 0
 let g:gundo_width = 30
 let g:gundo_preview_height = 15
 let g:gundo_right = 1
-
-" Vertical line indentation
-let g:indentLine_color_term = 23
-let g:indentLine_color_gui = '#073643'
-let g:indentLine_char = '┊'
-let g:indentLine_enabled = 0
-let g:indentLine_noConcealCursor=""
 
 " Airline plugin configuration
 let g:airline_theme = 'solarized'
@@ -101,8 +94,6 @@ let g:syntastic_auto_jump=1
 " -------------------------------------
 "  Key maps
 " -------------------------------------
-" Enable vertical indentation
-nmap <leader>gi :IndentLinesToggle<cr>
 
 " Enable/Disable syntastic
 map  <leader>st :SyntasticToggleMode<cr>
