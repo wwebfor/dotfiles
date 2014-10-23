@@ -3,14 +3,14 @@ set nocompatible
 " Load plugins
 source ~/.vim/plugins.vim
 
+" Enable filetype detection and ft specific plugin/indent
+filetype plugin indent on
+
 " Load plugin configs
 source ~/.vim/plugin-configs.vim
 
 " Load local configs (specific for a computer)
 source ~/.vimrc.local
-
-" Enable filetype detection and ft specific plugin/indent
-filetype plugin indent on
 
 " -----------------------------
 "  Look and feel
