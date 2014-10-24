@@ -47,6 +47,9 @@ Plugin 'bronson/vim-trailing-whitespace'
 "  Plugins for autocompletion, snippets,
 "  and other stuff that makes life easier
 " -----------------------------------------
+" Editorconfig to help define and maintain consisten coding styles
+Plugin 'editorconfig/editorconfig-vim'
+
 " Provides support for expanding abbreviations similar to emmet.
 Plugin 'mattn/emmet-vim'
 
