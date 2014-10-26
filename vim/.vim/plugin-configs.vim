@@ -28,6 +28,15 @@ let NERDTreeShowHidden=1
 " let NERDTreeWinPos = "left"
 " let NERDTreeChDirMode=2
 
+" CtrlP
+let g:ctrlp_cache_dir = $HOME . '/.cache/ctrlp'
+if executable('ag')
+  let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+endif
+
+" Speed up CtrlP by ignoring JS components
+set wildignore+=*/node_modules/*,*/bower_components*,*/.cordova/*,*/phonegap/*,*/dist/*
+
 " Tagbar plugin configuration
 let g:tagbar_compact = 1
 let g:tagbar_width = 30

@@ -25,6 +25,9 @@ Plugin 'xolox/vim-session'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
 
+" Full path fuzzy file, buffer, mru, tag, ... finder for Vim.
+Plugin 'kien/ctrlp.vim'
+
 " Plugin to visualize Vim undo tree.
 Plugin 'sjl/gundo.vim'
 

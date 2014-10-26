@@ -111,7 +111,7 @@ set foldenable
 " Command line completion
 set wildmenu
 set wildmode=longest,list,full
-set wildignore=.svn,.git,*.o,*~,*.swp,*.pyc,*.class,*.dSYM
+set wildignore+=*/tmp/*,.svn,.git,*.o,*~,*.swp,*.pyc,*.class,*.dSYM,*.so,*.zip
 
 " Tab completion
 set completeopt=longest,menuone
