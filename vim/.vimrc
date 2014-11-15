@@ -164,7 +164,7 @@ au BufRead,BufWrite * if ! &bin | silent! %s/\s\+$//ge | endif
 " Filetype commands
 " --------------------
 " Json filetype detection
-au BufNewFile,BufRead *.json,*.jshintrc,*.bowerrc set filetype=json
+au BufNewFile,BufRead *.json,*.jshintrc,*.bowerrc,*.webapp set filetype=json
 
 " Less, Stylus, and SASS
 au BufNewFile,BufRead *.less set filetype=less

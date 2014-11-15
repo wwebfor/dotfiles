@@ -27,5 +27,5 @@ color listfocus white blue bold
 
 # Higlight important words
 highlight article "^(Feed|Title|Author|Link|Date):" default default bold
-highlight articlelist "(javascript|php|css|laverna|mongo|backbone|marionette|node|jquery|linux|bootstrap|sql|algorithm|ssh)" white green default
-highlight articlelist "(bitcoin|hack|xss)" green default default
+highlight article "(javascript|php|css|laverna|mongo|backbone|marionette|node|jquery|linux|bootstrap|sql|algorithm|ssh)" white green default
+highlight article "(bitcoin|hack|xss)" green default default

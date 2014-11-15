@@ -35,7 +35,7 @@ if executable('ag')
 endif
 
 " Speed up CtrlP by ignoring JS components
-set wildignore+=*/node_modules/*,*/bower_components*,*/.cordova/*,*/phonegap/*,*/dist/*
+let g:ctrlp_custom_ignore = '\v[\/](node_modules|bower_components|\.cordova|phonegap|dist)$'
 
 " Tagbar plugin configuration
 let g:tagbar_compact = 1

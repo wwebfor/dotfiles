@@ -72,6 +72,9 @@ Plugin 'tpope/vim-surround'
 " Extended % matching for HTML, LaTeX, and many other languages
 Plugin 'vim-scripts/matchit.zip'
 
+" Functions and mappings to close open HTML/XML tags
+Plugin 'vim-scripts/closetag.vim'
+
 " Commenting code
 Plugin 'tomtom/tcomment_vim'
 Plugin 'scrooloose/nerdcommenter'
@@ -82,14 +85,10 @@ Plugin 'godlygeek/tabular'
 " True Sublime Text style multiple selections
 Plugin 'terryma/vim-multiple-cursors'
 
-" Cycle through history of yanks
-Plugin 'maxbrunsfeld/vim-yankstack'
-
 " ------------------------------
 "  Syntax
 " ------------------------------
 " Syntax checkers
-" Plugin 'walm/jshint.vim'
 Plugin 'scrooloose/syntastic'
 
 " Function and namespace highlighting
